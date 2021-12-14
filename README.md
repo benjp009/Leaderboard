@@ -2,6 +2,9 @@
 
 > In this Project I have created a leaderboard where I am learning how to link a website with an API 
 
+
+![Leaderboard](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png)
+
 ## Built With
 
 - HTML
