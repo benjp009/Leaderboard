@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/benjp009/Leaderboard#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
