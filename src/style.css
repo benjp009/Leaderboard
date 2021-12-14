@@ -1,3 +1,43 @@
-body {
-  background-color: bisque;
+section {
+  display: grid;
+  grid-template-columns: 50vw 30vw;
+}
+
+.title {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-scores {
+  margin: 0 5vw;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid black;
+}
+
+ul.striped, li:nth-child(even) {
+  background:#efefef;
+}
+
+.board-list {
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-value {
+  margin: 5px 0;
+  border: 2px solid black;
+}
+
+.input-button {
+  align-self: flex-end;
+  border: 2px solid black;
 }
