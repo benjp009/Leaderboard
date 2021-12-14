@@ -20,11 +20,9 @@ ul {
   border: 2px solid black;
 }
 
-ul.striped, li:nth-child(even) {
-  background:#efefef;
-}
-
-.board-list {
+ul.striped,
+li:nth-child(even) {
+  background: #efefef;
 }
 
 form {
