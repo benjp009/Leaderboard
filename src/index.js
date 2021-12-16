@@ -1,6 +1,6 @@
 import './style.css';
 
-async function sendData(url = '', data = {}) {
+const sendData = async (url = '', data = {}) => {
   const response = await fetch(url, {
     method: 'POST',
     cache: 'no-cache',
