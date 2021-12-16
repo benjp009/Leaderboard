@@ -13,7 +13,7 @@ const sendData = async (url = '', data = {}) => {
     body: JSON.stringify(data),
   });
   return response.json();
-}
+};
 
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
