@@ -19,12 +19,12 @@ const sendData = async (url = '', data = {}) => {
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 const submitButton = document.getElementById('submit');
-submitButton.addEventListener( 'click', async () => {
+submitButton.addEventListener('click', async () => {
+  // eslint-disable-next-line no-restricted-globals
   event.preventDefault();
   await sendData('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3qxAA7wy5DPzg65q4nWs/scores/', { user: nameInput.value, score: +scoreInput.value });
   nameInput.value = '';
   scoreInput.value = '';
-
 });
 
 const refreshButton = document.getElementById('refresh');
