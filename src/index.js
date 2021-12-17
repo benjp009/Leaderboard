@@ -20,7 +20,7 @@ const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 const submitButton = document.getElementById('submit');
 submitButton.addEventListener('submit', async () => {
-  await sendData('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3qxAA7wy5DPzg65q4nWs/scores/', { user: nameInput.value, score: +scoreInput.value },);
+  await sendData('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/3qxAA7wy5DPzg65q4nWs/scores/', { user: nameInput.value, score: +scoreInput.value },)
   nameInput.value = '';
   scoreInput.value = '';
 });
